@@ -1,0 +1,1 @@
+<h1>Get your user name here from controller view : {{$name}}</h1>
