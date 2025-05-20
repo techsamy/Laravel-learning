@@ -27,13 +27,15 @@ class UserController extends Controller
         if(View::exists('admin.login')){
             return view('admin.login');
         }else{
-            echo "NOooooooooooooooooo View ";
+            echo "No View Found";
 
         }
     }
 
-    function userHome(){
-        return view('home');
+    function userHome(){ 
+        $name = "samy";
+        $users = ['Ram', 'Shayam', 'Aman', 'ravi', 'Sam'];
+        return view('home', ["name" => $name, "users" => $users]);
     }
 
     function userAbout($name){

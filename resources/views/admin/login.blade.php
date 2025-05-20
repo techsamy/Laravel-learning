@@ -1,1 +1,1 @@
-<h1>Admin Login Page</h1>
+<h1>Admin Login Page inside admin folder </h1>

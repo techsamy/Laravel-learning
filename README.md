@@ -20,5 +20,5 @@ php artisan make:controller UserController
 ## Create View 
 php artisan make:view about
 
-## Nested view and call
+## Nested view and call (Subview)
 php artisan make:view admin.login
