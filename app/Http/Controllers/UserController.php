@@ -38,7 +38,7 @@ class UserController extends Controller
         return view('home', ["name" => $name, "users" => $users]);
     }
 
-    function userAbout($name){
+    function userAbout($name = NUll){
         return view('abouttest', ['user' => $name]);
     }
 }
